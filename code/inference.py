@@ -8,8 +8,8 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"  # see issue #152
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 data_dir = "../data/inference_data/"
-mode = "real"  # real, fake, or unlabeled
-pretrained_model_name = 'real_test_saved_model_80_8_32_0_1_50_0_0.0001_500_16_2_True_True.h5'
+mode = "unlabeled"  # real, fake, or unlabeled
+pretrained_model_name = 'saved_model_240_8_32_0.05_1_50_0_0.0001_100_156_2_True_True_fitted_objects.h5'
 print(f"Loading inference data from {os.path.join(data_dir,mode)}")
 print(f"Loading pretrained model {pretrained_model_name}")
 

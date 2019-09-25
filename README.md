@@ -6,6 +6,8 @@ intent is becoming more important than ever.
 We built a fake audio detection model with Foundations Atlas, for anyone to use. 
 If you'd like to read more about why we decided to build this, [click here](https://medium.com/@dessa_/detecting-audio-deepfakes-f2edfd8e2b35).
 
+Here are two examples of short audio clips in `./data/example_clips/` folder. One of them is real and the other is fake.
+
 This repository provides the code for a fake audio detection model built using Foundations Atlas. 
 It also includes a pre-trained model and inference code, which you can test on any of your own audio files. 
 
@@ -59,7 +61,7 @@ the `Discriminator_Model` class. Make changes as you please to see if you can im
 
 ## Using the Pre-trained Model 
 
-This is simple baseline model that we created to get you started. It achieves 85% accuracy and 0.58 f1 score on the test set.
+We are providing our pre-trained model which is located in `fitted_objects/` folder. This is simple baseline model that we created to get you started. It achieves 85% accuracy and 0.58 f1 score on the test set.
 
 To run our pre-trained model on your own audio:
 1. Copy your audio files to `data/inference_data/unlabeled/` 
@@ -71,7 +73,6 @@ python inference.py
 
 Once the run completes, you should see a print out with information on predictions of the model, the accuracy of the model on 
 your provided data, as well as which examples it got right, and which it got wrong. 
-
 
 
 ## Running a Hyperparameter Search
