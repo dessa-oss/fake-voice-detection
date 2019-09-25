@@ -1,0 +1,32 @@
+# Project config #
+# project_name: 'my-atlas-project'
+log_level: INFO
+
+# Worker config #
+# Additional definition for the worker can be found here: https://docker-py.readthedocs.io/en/stable/containers.html
+
+#ram: # Accepts int values (which represent the memory limit of the created container in bytes)
+#num_gpus: # A non-zero value mounts all available GPUs inside the worker
+
+worker:
+  image: atlas-ce/worker:latest  # The worker image will be pulled if it doesn't exist. :latest will be pulled if no tag is specified.
+#  entrypoint: # Will override the entrypoint defined in the worker image
+#  command:  # Arguments to be passed to the entrypoint above
+#  working_dir:  # Working directory when entering the worker container. Your code will be at /job/job_source
+#
+  volumes:
+    /media/biggie2/sachinrana/fake-audio-detection/data:
+      bind: /data
+      mode: rw
+#    volume2:
+#      bind:
+#      mode:
+#
+#  environment:
+#    variable: value # Set environment variables using key-value pairs
+
+
+
+
+
+

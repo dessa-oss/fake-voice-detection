@@ -1,0 +1,10 @@
+batch_size: 32
+epochs: 200
+learning_rate: 0.1
+num_conv_blocks: 2
+num_conv_filters: 16
+num_dense_layers: 2
+num_dense_neurons: 10
+num_freq_bin: 80
+spatial_dropout_fraction: 0.4
+use_default: True
