@@ -832,11 +832,11 @@ def build_custom_convnet():
     output_layer = Activation('sigmoid')(output_layer)
     model = Model(inputs=image_input, outputs=output_layer)
     opt = optimizers.Adam(lr=learning_rate)
-    model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['accuracy'])
     try:
-        model = multi_gpu_model(model, gpus=3)
+        model = multi_gpu_model(model, gpus=4)
     except:
         pass
+    model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
 

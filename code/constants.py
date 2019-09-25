@@ -415,9 +415,6 @@ def load_config_yaml():
 
 
 
-
-# base_data_path = './data/physical_access'
-
 # Load the config yaml file
 model_params = load_config_yaml()
 
