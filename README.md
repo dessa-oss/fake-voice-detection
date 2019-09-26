@@ -89,9 +89,9 @@ Now you should be able to see your running and queued jobs on the Atlas GUI.
 ## Foundations Atlas GUI
 You can view the  Atlas GUI (https://localhost:5555) to see the model training, view saved artifacts, or see the model on TensorBoard. Here are a few images of the gui:
 
-![Experiment Tracker]('readme_images/gui.png')
+![Experiment Tracker](readme_images/gui.png)
 
 
-![Artifact Viewer]('readme_images/artifact_viewer.png')
+![Artifact Viewer](readme_images/artifact_viewer.png)
 
-![Tensorboard Integration]('readme_images/tensorboard_integration.png')
+![Tensorboard Integration](readme_images/tensorboard_integration.png)
