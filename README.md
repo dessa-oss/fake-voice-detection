@@ -58,10 +58,9 @@ You can view the  Atlas GUI (https://localhost:5555) to see the model training, 
 If you'd like to see our model architecture, or make changes to the model architecture, you can find the model code in `utils.py` in 
 the `Discriminator_Model` class. Make changes as you please to see if you can improve the model!
 
-
 ## Using the Pre-trained Model 
 
-We are providing our pre-trained model which is saved on the Amazon S3 bucket. If you ran `bash downlaod_data.sh` then you should see a folder created in the `code/` directory inside which you will find the pre-trained model.  This is simple baseline model that we created to get you started. It achieves 85% accuracy and 0.58 f1 score on the test set.
+We are providing our pre-trained model which is saved on the Amazon S3 bucket. If you ran `bash downlaod_data.sh` then you should see a folder named `fitted_objects/` created inside the `code/` directory inside which you will find the pre-trained model.  This is simple baseline model that we created to get you started. It achieves 85% accuracy and 0.58 f1 score on the test set.
 
 To run our pre-trained model on your own audio:
 1. Copy your audio files to `data/inference_data/unlabeled/` 
@@ -86,3 +85,13 @@ python submit_jobs.py
 
 Now you should be able to see your running and queued jobs on the Atlas GUI. 
 
+
+## Foundations Atlas GUI
+You can view the  Atlas GUI (https://localhost:5555) to see the model training, view saved artifacts, or see the model on TensorBoard. Here are a few images of the gui:
+
+[Experiment Tracker]('./readme_images/gui.png')
+
+
+[Artifact Viewer]('./readme_images/artifact_viewer.png')
+
+[Tensorboard Integration]('./readme_images/tensorboard_integration.png')
