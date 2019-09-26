@@ -11,6 +11,7 @@ wget https://asv-audio-data-atlas.s3.amazonaws.com/realtalk.zip
 unzip realtalk.zip -d .
 mv realtalk/* .
 rm realtalk.zip
+rm -r realtalk/
 
 cd ..
 mkdir logical_access/
