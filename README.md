@@ -61,7 +61,7 @@ the `Discriminator_Model` class. Make changes as you please to see if you can im
 
 ## Using the Pre-trained Model 
 
-We are providing our pre-trained model which is located in `fitted_objects/` folder. This is simple baseline model that we created to get you started. It achieves 85% accuracy and 0.58 f1 score on the test set.
+We are providing our pre-trained model which is saved on the Amazon S3 bucket. If you ran `bash downlaod_data.sh` then you should see a folder created in the `code/` directory inside which you will find the pre-trained model.  This is simple baseline model that we created to get you started. It achieves 85% accuracy and 0.58 f1 score on the test set.
 
 To run our pre-trained model on your own audio:
 1. Copy your audio files to `data/inference_data/unlabeled/` 

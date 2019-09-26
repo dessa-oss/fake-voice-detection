@@ -20,5 +20,11 @@ wget https://asv-audio-data-atlas.s3.amazonaws.com/preprocessed_data.zip
 unzip preprocessed_data.zip -d .
 rm preprocessed_data.zip
 
+cd ..
+cd ..
+cd code/
+mkdir fitted_objects
+wget https://asv-audio-data-atlas.s3.amazonaws.com/saved_model_240_8_32_0.05_1_50_0_0.0001_100_156_2_True_True_fitted_objects.h5
+
 
 
