@@ -41,7 +41,7 @@ this data by running the following command in the terminal (make sure you are ru
 bash download_data.sh
 ```
 
-Once the download completes, open the `job.config.yml`. 
+Note: Once the download completes, open the `job.config.yml`. 
 On line 18, you'll find a the following filepath: `/media/biggie2/sachinrana/fake-audio-detection/data`.
 Replace this filepath with the absolute path to the `data/` folder in this project, wherever you've saved it. 
 

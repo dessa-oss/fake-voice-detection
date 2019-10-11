@@ -24,7 +24,6 @@ discriminator = Discriminator_Model(load_pretrained=True, saved_model_name=pretr
 if mode == 'unlabeled':
     # Visualize the preprocessed data
     plot_spectrogram(processed_data[0], path='visualize_inference_spectrogram.png')
-    subprocess.call(["bash","scp_spectrogram.sh"])
 
     print("The probability of the clip being real is: {:.2%}".format(
         discriminator.predict_labels(processed_data, raw_prob=True, batch_size=20)[0][0]))

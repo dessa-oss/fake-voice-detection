@@ -4,7 +4,6 @@
 *.h5
 *.jpg
 *.jpeg
-*.txt
 *.csv
 *.xlsx
 *.ipynb
