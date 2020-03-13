@@ -95,3 +95,22 @@ You can view the  Atlas GUI (https://localhost:5555) to see the model training, 
 ![Artifact Viewer](readme_images/artifact_viewer.png)
 
 ![Tensorboard Integration](readme_images/tensorboard_integration.png)
+
+## License
+```
+Copyright 2015-2020 Square, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+© 2020 Square, Inc. ATLAS, DESSA, the Dessa Logo, and others are trademarks of Square, Inc. All third party names and trademarks are properties of their respective owners and are used for identification purposes only.

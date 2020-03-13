@@ -3,7 +3,7 @@ numpy==1.15.1
 joblib==0.13.0
 scipy==1.1.0
 scikit_optimize==0.5.2
-tensorflow-gpu==1.14
+tensorflow-gpu==1.15.2
 tqdm==4.28.1
 matplotlib==3.0.1
 pydub==0.23.1
