@@ -11,4 +11,4 @@ Keras==2.2.4
 lws==1.2.5
 nlpaug==0.0.8
 scikit_learn==0.21.3
-PyYAML==5.1.2
+PyYAML==5.4
