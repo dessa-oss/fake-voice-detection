@@ -1,2 +1,2 @@
 apt-get update
-yes | apt-get install libsndfile1
+apt-get install libsndfile1 -y

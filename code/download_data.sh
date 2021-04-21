@@ -1,7 +1,7 @@
 apt-get update
-yes | apt-get install wget
-yes | apt-get install zip
-yes | apt-get install unzip
+apt-get install wget -y
+apt-get install zip -y
+apt-get install unzip -y
 
 cd ../data/
 
