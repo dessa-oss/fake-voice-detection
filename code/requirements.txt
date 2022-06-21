@@ -1,5 +1,5 @@
 librosa==0.7.0
-numpy==1.15.1
+numpy==1.22.0
 joblib==0.13.0
 scipy==1.1.0
 scikit_optimize==0.5.2
